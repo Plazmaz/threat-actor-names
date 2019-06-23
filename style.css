@@ -1,0 +1,21 @@
+* {
+    background-image: url("background.png?");
+    color: lime;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+body {
+    text-align: center
+}
+h1 {
+    font-size: 42pt;
+}
+#actor {
+    font-size: 40pt;
+}
+#btn {
+    font-size: 15pt;
+    border-radius: 5%;
+    padding: 1%;
+    background: rgb(58, 58, 58);
+    border-color: rgb(30, 30, 30);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Threat Actor Name Generator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Threat Actor Name Generator</h1>
+        <h3>Our intelligence feeds suggest the threat actor responsible is...</h3>
+        <br>
+        <span id="actor"></span>
+        <br><br><br>
+        <button id="btn">Generate Next Attribution</button>
+        <script src="index.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67106116-6">
+        </script>
+
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-67106116-6');
+        </script>
+    </body>
+</html>
