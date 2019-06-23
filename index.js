@@ -25,7 +25,8 @@ let animals = [
     "weasel",
     "badger",
     "coyote",
-    "bobcat"
+    "bobcat",
+    "chollima"
 ];
 
 let descriptors = [
@@ -33,17 +34,17 @@ let descriptors = [
     "evil",
     "nasty",
     "stone",
-    "viexn",
+    "vixen",
     "wild",
     "rugged",
     "snappy",
     "karate",
-    "kung-fu",
+    "kungfu",
     "hidden",
     "sneaky",
     "private",
     "stealthy",
-    "magic",
+    "magical",
     "playful",
     "adorable",
     "goblin",
@@ -57,7 +58,7 @@ let descriptors = [
     "cozy",
     "crazy",
     "venomous",
-    "poison",
+    "poisonous",
     "gothic",
     "verbose",
     "rambunctious",
@@ -68,7 +69,24 @@ let descriptors = [
     "belligerent",
     "intelligent",
     "clever",
-    "witty"
+    "witty",
+    "nightshade",
+    "night",
+    "emissary",
+    "deep",
+    "lotus",
+    "anchor",
+    "mustang",
+    "voodoo",
+    "mummy",
+    "carbon",
+    "charming",
+    "energetic",
+    "berserk",
+    "ancient",
+    "elder",
+    "spring",
+    "lucky"
 ];
 function generateActor() {
     let animalIdx = Math.floor(Math.random() * animals.length);
