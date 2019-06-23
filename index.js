@@ -1,4 +1,4 @@
- let animals = [
+let animals = [
     "panda",
     "bear",
     "kitten",
@@ -19,7 +19,13 @@
     "crocodile",
     "orca",
     "lion",
-    "elephant"
+    "elephant",
+    "horse",
+    "hyena",
+    "weasel",
+    "badger",
+    "coyote",
+    "bobcat"
 ];
 
 let descriptors = [
@@ -57,7 +63,12 @@ let descriptors = [
     "rambunctious",
     "ruthless",
     "unrelenting",
-    "brutal"
+    "brutal",
+    "aggressive",
+    "belligerent",
+    "intelligent",
+    "clever",
+    "witty"
 ];
 function generateActor() {
     let animalIdx = Math.floor(Math.random() * animals.length);
@@ -65,7 +76,9 @@ function generateActor() {
     let descriptor = descriptors[descriptorIdx][0].toUpperCase() + descriptors[descriptorIdx].substring(1);
     let animal = animals[animalIdx][0].toUpperCase() + animals[animalIdx].substring(1);
     document.getElementById("actor").innerText = descriptor + " " + animal;
-    ga('send', 'event', 'button', 'click', 'generate');
+    gtag('event', 'click', {
+      'event_category': 'generate'
+    });
 }
 window.onload = () => {
     generateActor();
